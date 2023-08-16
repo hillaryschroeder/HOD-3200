@@ -597,12 +597,15 @@ you will take when using Git as your version control.
 
 - Pushing means that you will send the file and the record of all of the
   changes made to the file to GitHub. To push, click the “push” button
-  in the Git tab in RStudio. You should do this every time you finish a
+  in the Git tab in RStudio. Because you are working on a forked folder
+  off of the online class repo, you will not be pushing your files. But
+  for other projects you are working on through GitHub (especially
+  collaborations), you sohuld be doing this every time you finish a
   working session, at an absolute minimum.
 
 So every session should go like this:
 
-pull–\>do work–\>save–\>stage(if new file)–\>commit
+pull–\>do work–\>save–\>stage(if new file)–\>commit–\>push
 
 By far the most useful guide to working with R and git/GitHub is [Jenny
 Bryan’s guide](https://happygitwithr.com/).

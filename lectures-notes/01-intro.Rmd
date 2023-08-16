@@ -295,11 +295,11 @@ When working with files in your directory, there are several basic steps you wil
 
 -   Committing means that you would like to keep the version of the file you generated. Think of this like emailing it to group members. It doesn't mean that it's done, but it does mean it's in a state that you would like to have a record of as you move forward. To commit a file in RStudio, click the "commit" button. You will be prompted to add a commit message. There's actually quite a lot of thought about what goes into a commit message. The best idea for now is simply to state why you did what you did, and avoid profanity or any demeaning language.
 
--   Pushing means that you will send the file and the record of all of the changes made to the file to GitHub. To push, click the "push" button in the Git tab in RStudio. You should do this every time you finish a working session, at an absolute minimum.
+-   Pushing means that you will send the file and the record of all of the changes made to the file to GitHub. To push, click the "push" button in the Git tab in RStudio. Because you are working on a forked folder off of the online class repo, you will not be pushing your files. But for other projects you are working on through GitHub (especially collaborations), you sohuld be doing this every time you finish a working session, at an absolute minimum.
 
 So every session should go like this:
 
-pull--\>do work--\>save--\>stage(if new file)--\>commit
+pull--\>do work--\>save--\>stage(if new file)--\>commit--\>push
 
 By far the most useful guide to working with R and git/GitHub is [Jenny Bryan's guide](https://happygitwithr.com/).
 
