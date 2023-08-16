@@ -7,7 +7,7 @@ do: analyze data!
 
 Here’s what we need to get done today:
 
-1.  Introductions  
+1.  Introductions
 2.  Installing R
 3.  Installing RStudio
 4.  Installing git
@@ -20,7 +20,12 @@ Here’s what we need to get done today:
 We need three basic sets of tools for this class. We will need `R` to
 analyze data. We will need `RStudio` to help us interface with R and to
 produce documentation of our results. Last, we will need `git` and
-GitHub to communicate our results to the wider world.
+GitHub. I will primarily use `git` and Github to share the most
+up-to-date class materials with you, including assignments, lecture
+notes, and data. `git` and Github are used widely to share publicly
+available data and code, help with collaborations between many
+individuals on projects, as well as to communicate results from analyses
+to a wider audience.
 
 ## Installing R
 
@@ -44,7 +49,7 @@ evelopment **E** nvironments (IDEs) that encompass all of these elements
 RStudio.
 
 If you haven’t already, you need to download RStudio here:
-<https://rstudio.com/products/rstudio/download/>. You need the free
+<https://posit.co/products/open-source/rstudio/>. You need the free
 RStudio desktop version.
 
 ## Installing git
@@ -55,8 +60,12 @@ challenges are well-known to anyone who has had to work on a complex
 document, particularly with collaborators. Because these problems are
 particularly severe in programming, they developed a set of tools called
 version control. These will keep track of every change you make to a
-file, and record why you made the change. Download git here and accept
-all of the defaults on installation: (<https://git-scm.com/downloads>)
+file, and record why you made the change. As noted earlier, for this
+class `git` will primarily be used to ensure that you always have the
+most up-to-date class materials at your fingertips.
+
+Download git here and accept all of the defaults on installation:
+(<https://git-scm.com/downloads>)
 
 ## Getting set up on GitHub
 
@@ -66,20 +75,14 @@ with git, so version control is easy to do. If you haven’t already, go
 to (<https://GitHub.com>) and sign up for free to get a username. Share
 the username with me as soon as you have one.
 
-## Initializing repos
-
-Everyone in the class will need a repository (repo from now on) on our
-GitHub organization. All I need from you is your username on GitHub,
-then I can add your repo to our organization.
-
 ## Installing GitHub Desktop
 
 GitHub desktop is a **G** raphical **U** ser **I** nterface for git. We
-won’t use it much, but you will need it to “clone” your git repository.
+won’t use it much, but you will need it to “clone” git repositories
+(repos).
 
-Download GitHub desktop (<https://desktop.GitHub.com/>). Choose the beta
-version, which appears to be working nicely. Accept all of the defaults
-on installation.
+Download GitHub desktop (<https://desktop.GitHub.com/>). Accept all of
+the defaults on installation.
 
 Unzip and open up the GitHub app. Then using the app, sign into GitHub
 using your username and ID.
@@ -94,7 +97,7 @@ path to git.
 Further instructions (if needed) are
 [here](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN).
 
-## Cloning down your repo
+## Cloning a repo
 
 First in RStudio, you’ll need to generate an SSH key. This will let
 GitHub know it’s safe to talk to your computer. In RStudio, go to
@@ -107,28 +110,34 @@ corner by your avatar, click on Settings. Go to SSH and GPG keys. Click
 “New SSH Key” and paste in the text you copied from RStudio. Name the
 key, and you should be all set.
 
-Now, go to your repo for this class. Everyone’s repo is in the
-`hoddatasci` organization, and uses the naming convention
-`student_<yourlastname>`. Click the green button that says “clone or
-download,” then copy the link provided by clicking on the clipboard next
-to the link.
+Now, go to the [public
+repo](https://github.com/MemeMedianMode/hoddatasci-master-f2023) for
+this class. Click the green button that says “clone or download,” then
+copy the link provided by clicking on the clipboard next to the link.
 
 *N.B. in this class, and generally in programming, when you see*
 `<text>` *that means that you need to substitute something in.*
 
 Now go to GitHub desktop, and click the “clone a repository.” Paste in
 the link you just copied, choose a location on your computer, and
-proceed. Choose a good spot on your computer for the project files–
-wherever you usually keep class directories. DO NOT PUT YOUR DIRECTORY
-ON YOUR DESKTOP OR IN DOWNLOADS. This project will be the only place you
-need to work for this class the entire semester.
+proceed. Choose a good spot on your computer for the project
+files–wherever you usually keep class directories. DO NOT PUT YOUR
+DIRECTORY ON YOUR DESKTOP OR IN DOWNLOADS. This project will be the only
+place you need to work for this class the entire semester.
+
+Note: Technically you will be creating a “fork” for the class public
+repo on your computer, as any changes you make to the directory on your
+computer will not result in changes to the directory online. Whenever I
+update the main online directory, you can/will update the forked
+directory on your computer and your class materials will be updated, as
+well. When certain levels of access, “cloning” of repos can actually
+allow individuals to edit files in the original repo–which you can
+understand why we are not doing for the public class materials online!
 
 ## Linking GitHub and RStudio
 
 From RStudio, you’ll need to click New Project–Existing Directory– then
 choose the directory where you just downloaded the GitHub repository.
-
-Name the project “central”.
 
 Once you click “create project,” you should see a “git” tab in your
 environment. Open up the file named `01-intro.Rmd` and take a look.
@@ -149,7 +158,7 @@ the `01-intro.Rmd` file in the directory.
 files contain three basic elements:
 
 1.  Script that can be interpreted by R.
-2.  Output generated by R, including tables and figures.  
+2.  Output generated by R, including tables and figures.
 3.  Text that can be read by humans.
 
 From a .Rmd file you can generate html documents, pdf documents, word
@@ -176,7 +185,7 @@ To run the code below in R, you can:
 
 - Press the “play” button next to the code chunk
 - In OS X, place the cursor in the code chunk and hit `CMD+RETURN`
-- In Windows, place the cursor in the code chunk and hit `CTRIL+RETURN`
+- In Windows, place the cursor in the code chunk and hit `CTRL+RETURN`
 
 ``` r
 ## Get necessary libraries-- won't work the first time, because you need to install them!
@@ -202,15 +211,17 @@ contains information from the college scorecard on different colleges
 and universities.
 
 However, we first need to make sure that R is looking in the right
-place. When you opened up your project, RStudio automagically took you
-to the directory for that project. But because we keep lessons in a
-separate directory, we need to point R to the right place. This is
-called setting the working directory, and can be done either by using
-the command `setwd` or in RStudio by going to “Session–\>Set Working
-Directory–\>Choose Directory.” Choose the directory where the file
-currently resides on your computer. Make sure to always set the working
-directory at the beginning of each session—not doing so causes a lot of
-headaches for new users.
+place. In general, when you open up a project, RStudio automatically
+takes you to the directory for that project. Because the repo has
+lecture notes in the same directory as the data, we do not need to point
+R to a different place where data is stored. Sometimes you will have to
+do so. This is called setting the working directory, and can be done
+either by using the command `setwd` or in RStudio by going to
+“Session–\>Set Working Directory–\>Choose Directory.” You would then
+choose the directory where the data file resides on your computer. Make
+sure if you need to, to always set the working directory at the
+beginning of each session—not doing so causes a lot of headaches for new
+users.
 
 ``` r
 df<-readRDS("sc_debt.Rds") 
@@ -296,7 +307,7 @@ criteria
 \-`arrange` arranges the rows of a dataset in the way we want.
 
 For more on these, please see this
-[vignette](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html).
+[vignette](https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html).
 
 Let’s grab just the data for Vanderbilt, then look only at the average
 test scores and admit rate. We can use filter to look at all of the
@@ -599,8 +610,8 @@ Bryan’s guide](https://happygitwithr.com/).
 ## Your first commit: Hello, World!
 
 For today, I want you to create a file called
-`01-assignment_<lastname>.Rmd` in your GitHub repo for assignments. It
-should contain the following elements:
+`01-assignment_<lastname>.Rmd` in for eventual submission on Brightspace
+as an assignment. It should contain the following elements:
 
 1.  A sentence that says “Hello, World”
 2.  R output that summarizes one of the variables in the `sc_debt.Rds`
@@ -611,8 +622,8 @@ should contain the following elements:
 Lucky for you this is is also your first assignment! Submit it under
 assignments, using the format `01-assignment_<lastname>.Rmd`. All
 assignments should be turned in using this format. Since my last name is
-Doyle, I would use `01-assignment_doyle.Rmd` as my file name. Unless
-your name is also Doyle, you should use a different name.
+Chin, I would use `01-assignment_chin.Rmd` as my file name. Unless your
+name is also Chin, you should use a different name.
 
 *Stretch Items*
 
