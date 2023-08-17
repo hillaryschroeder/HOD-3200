@@ -110,9 +110,11 @@ We must use laptops in this class, despite the [substantial](http://journals.sag
 
 Mobile phone use is never appropriate in class. I will ask you to leave if you are using your mobile phone at any time. Exceptions are to be arranged BEFORE class, not when I observe you using your mobile phone.
 
-# Honor Code Statement
-
-All assignments for this class, including weekly assignments and the final project, are to be conducted under the obligations set out in Vanderbilt's Honor Code. Please click [here](http://www.vanderbilt.edu/student_handbook/the-honor-system/) to review the honor code.
+# Health and Safety
+Our mutual commitment to health and safety is vital. Toward that end, all students are expected to adhere to Vanderbilt health and safety protocols. Guidance may be updated throughout the semester. 
+ 
+# Honor Code
+All work submitted in this course is governed by provisions of the Vanderbilt University Honor Code, found in the [student handbook](https://studenthandbook.vanderbilt.edu/).  If you have any doubts about how the Honor Code applies to your work in this class, please ask me for clarification. Uncertainty about application of the Honor Code does not excuse a violation. 
 
 There will be two quite different standards for completing the assignments and the final project.
 
@@ -121,6 +123,23 @@ There will be two quite different standards for completing the assignments and t
 *Final Project* All of the work on the final assignment must be the work of you and your partner alone. Anyone's work that you reference should be cited, as usual. All data that you do not personally collect must be cited, as with any other resource.
 
 If you have any questions at all about the honor code or how it will be applied, ask me right away.
+
+# Artificial Intelligence (AI)
+All work submitted in this course must be your own, completed in accordance with the Vanderbilt University Honor Code. You may not use generative AI tools, such as ChatGPT, or receive unauthorized aid from AI software in this course and on course assignments.
+ 
+# Classroom Accommodations
+Vanderbilt is committed to equal opportunity for students with disabilities. If you need course accommodations due to a disability, please contact [VU Student Access Services](https://www.vanderbilt.edu/student-access/) to initiate the process. After SAS has notified me of relevant accommodations, we will discuss how these accommodations may best be approached in this class, and I will facilitate the accommodations.
+
+# Mental Health & Wellness
+If you are experiencing undue stress that may be interfering with your ability to perform academically, Vanderbilt’s Student Care Network offers a range of support services. The Office of Student Care Coordination (OSCC) is the central and first point of contact to help you navigate and connect to appropriate resources. You can schedule an appointment with the OSCC at https://www.vanderbilt.edu/carecoordination/ or call 615-343-WELL. You can find a calendar of services at https://www.vanderbilt.edu/studentcarenetwork/satellite-services/. 
+
+If you or someone you know needs to speak with a professional counselor immediately, the University Counseling Center offers Urgent Care Counseling. Students should call the UCC at (615) 322-2571 during office hours to speak with an urgent care clinician. You can also reach an on-call counselor after hours or on the weekends by calling (615) 322-2571 and pressing option 2 at any time. You can find additional information at https://www.vanderbilt.edu//ucc/.
+
+# Mandatory Reporter Obligations
+All University faculty and administrators are mandatory reporters. What this means is that all faculty and administrators must report allegations of sexual misconduct and intimate partner violence to the Title IX Coordinator. In addition, all faculty and administrators are obligated to report any allegations of discrimination. I am willing to discuss with you such incidents but can only do so in the context of us both understanding my reporting obligations. If you want to talk with someone in confidence, officials in the Student Health Center, the University Counseling Center, and the Office of the Chaplain and Religious Life (when acting as clergy) can maintain confidentiality. In addition, officials in the [Project Safe Center](https://www.vanderbilt.edu/projectsafe/) have limited confidentiality, in that they must report the incidents but can do so without providing identifying information. The Project Safe Center serves as the central resource for those impacted by sexual misconduct and intimate partner violence and can assist with navigating all facets of the University’s resource and support network and other processes. 
+
+# Names and Pronouns
+If you would like to use a different name or pronouns than those provided through YES, please let the instructor know at any time prior to or during the semester. Information is available through the [LGBTQI Life offices](https://www.vanderbilt.edu/lgbtqi/) about how to change either or both of these in YES.
 
 # Schedule
 
