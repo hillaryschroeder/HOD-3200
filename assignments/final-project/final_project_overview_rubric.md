@@ -4,18 +4,18 @@ For the final project for HOD 3200, you will be working in pairs (or, in rare ca
 
 One of the most complicated tasks in completing the final project for this class will be to find data that is ready to be analyzed. Much of the data in the world that you access requires extensive processing (some of which you will learn how to do in this class) before analyses can occur. To minimize the time you spend on processing data and to maximize the time you spend on conducting interesting analyses for the project and identifying how to best display results from these analyses, I am *strongly* encouraging you to use "pre-packaged" data--or data that requires minimal additional processing--for your projects. For example, data from the following sources are in good shape and, for the most part, ready to be analyzed:
 
-1. U.S. Election Data from [MIT's Election Lab](https://electionlab.mit.edu/data)
-2. U.S. Demographic Data from the U.S. Census and Amerian Community Surveys aggregated to different geographies (e.g., states, counties, census tracts) from [IPUMS NHGIS](https://www.nhgis.org/)
-3. Data on U.S. K-12 Public School Academic Performance and Demographics from Stanford's [Educational Opportunity Project](https://edopportunity.org/get-the-data/seda-archive-downloads/)
-4. Decades of Movie Data [Scraped from IMDb](https://www.kaggle.com/datasets/danielgrijalvas/movies?select=movies.csv)
-5. Extensive Performance Data for NFL Players and Teams Scraped from the Web using the [nflreadR Package](https://github.com/nflverse/nflreadr)
+1.  U.S. Election Data from [MIT's Election Lab](https://electionlab.mit.edu/data)
+2.  U.S. Demographic Data from the U.S. Census and Amerian Community Surveys aggregated to different geographies (e.g., states, counties, census tracts) from [IPUMS NHGIS](https://www.nhgis.org/)
+3.  Data on U.S. K-12 Public School Academic Performance and Demographics from Stanford's [Educational Opportunity Project](https://edopportunity.org/get-the-data/seda-archive-downloads/)
+4.  Decades of Movie Data [Scraped from IMDb](https://www.kaggle.com/datasets/danielgrijalvas/movies?select=movies.csv)
+5.  Extensive Performance Data for NFL Players and Teams Scraped from the Web using the [nflreadR Package](https://github.com/nflverse/nflreadr)
 
 From these data sources you may, for example, choose to complete a project using skills learned in this class that answers the following prediction questions:
 
-1. Which U.S. counties should political parties target based on their likelihood of flipping partisan alignment?
-2. Which U.S. census tracts are predicted to experience the greatest influx of college-educated 24-35 year olds in the next 5 years?
-3. What district and geographic characteristics are most important for predicting inequality in test score performance by student race/ethnicity?
-4. How does performance in the first four weeks of the NFL season predict performance later on?
+1.  Which U.S. counties should political parties target based on their likelihood of flipping partisan alignment?
+2.  Which U.S. census tracts are predicted to experience the greatest influx of college-educated 24-35 year olds in the next 5 years?
+3.  What district and geographic characteristics are most important for predicting inequality in test score performance by student race/ethnicity?
+4.  How does performance in the first four weeks of the NFL season predict performance later on?
 
 You are of course welcome to find other data sources than those listed above. There is a treasure trove of publicly available information covering [sports](https://cran.r-project.org/web/views/SportsAnalytics.html), [education and inequality](https://ocrdata.ed.gov/resources/downloaddatafile), and [politics](https://data.fivethirtyeight.com/). Websites like [FiveThirtyhEight](https://data.fivethirtyeight.com/), [Kaggle](https://www.kaggle.com/), and the UC Irvine [Machine Learning Repository](https://archive.ics.uci.edu/datasets) also may have data that is interesting and ready to be analyzed. However, heed the recommendation that you may want to maximize the time you spend on analyzing data, and not processing it.
 
