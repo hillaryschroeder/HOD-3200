@@ -59,7 +59,9 @@ A strong (A) paper will have a `.Rmd` file that generates a very nicely formatte
 
 An acceptable (B) paper will have some formatting problems and may not look very nice.
 
-A weak (C) paper will include code chunks, poor formatting, and will just be messy. \## Coding
+A weak (C) paper will include code chunks, poor formatting, and will just be messy. 
+
+## Coding
 
 A strong (A) paper will have code that can generate results from the raw data in an easy to understand way. The code will be commented and will run on my computer without me having to tweak it in any way. (Easy test is to knit the document, with all related files in same directory)
 
