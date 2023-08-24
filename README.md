@@ -444,7 +444,7 @@ Databases: `11-databases.Rmd`.
 
 Assignment 10 Due 11:59 PM, Monday, November 26
 
-## Thursday, November 30, Special Topics: Interactive Graphics
+## Thursday, November 30, Special Topics: Interactive Graphics, AI Tools
 
 *Lecture Notes*
 
