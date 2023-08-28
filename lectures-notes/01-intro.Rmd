@@ -113,7 +113,7 @@ library(tidyverse)
 
 Now we're ready to load in data. The data frame will be our basic way of interacting with everything in this class. The `sc_debt.Rds` data frame contains information from the college scorecard on different colleges and universities.
 
-However, we first need to make sure that R is looking in the right place. In general, when you open up a project, RStudio automatically takes you to the directory for that project. Because the repo has lecture notes in the same directory as the data, we do not need to point R to a different place where data is stored. Sometimes you will have to do so. This is called setting the working directory, and can be done either by using the command `setwd` or in RStudio by going to "Session--\>Set Working Directory--\>Choose Directory." You would then choose the directory where the data file  resides on your computer. Make sure if you need to, to always set the working directory at the beginning of each session---not doing so causes a lot of headaches for new users.
+However, we first need to make sure that R is looking in the right place. In general, when you open up a project, RStudio automatically takes you to the directory for that project. Because the repo has lecture notes in the same directory as the data, we do not need to point R to a different place where data is stored. Sometimes you will have to do so. This is called setting the working directory, and can be done either by using the command `setwd` or in RStudio by going to "Session--\>Set Working Directory--\>Choose Directory." You would then choose the directory where the data file resides on your computer. Make sure if you need to, to always set the working directory at the beginning of each session---not doing so causes a lot of headaches for new users.
 
 ```{r}
 df<-readRDS("sc_debt.Rds") 
@@ -121,7 +121,7 @@ names(df)
 ```
 
 | Name           | Definition                                                                                                                                                                                             |
-|-------------------|-----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | unitid         | Unit ID                                                                                                                                                                                                |
 | instnm         | Institution Name                                                                                                                                                                                       |
 | stabbr         | State Abbreviation                                                                                                                                                                                     |
@@ -324,5 +324,3 @@ If you have extra time, you can do the following:
 3.  Plot the relationship between SAT and debt. What do you see? Does this surprise you?
 
 4.  Now, provide separate plots for SAT and debt by control of the institution.
-
-Save, commit and push the assignment file to the assignments directory.
