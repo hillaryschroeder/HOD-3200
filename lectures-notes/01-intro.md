@@ -644,5 +644,3 @@ If you have extra time, you can do the following:
 
 4.  Now, provide separate plots for SAT and debt by control of the
     institution.
-
-Save, commit and push the assignment file to the assignments directory.
