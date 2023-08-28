@@ -26,17 +26,3 @@ Submit it under assignment 1, using the format
 using this format. Since my last name is Chin, I would use
 `01-assignment_chin.Rmd` as my file name. Unless your name is also Chin,
 you should use a different name.
-
-*Stretch Items*
-
-If you have extra time, you can do the following:
-
-1.  Calculate the average debt level for individuals at the most
-    selective colleges, then compare that with individuals at the least
-    selective colleges in the dataset.
-2.  Find a way to determine whether colleges with very high SAT scores
-    tend to be larger or smaller than colleges with low SAT scores.
-3.  Plot the relationship between cost and debt. What do you see? Does
-    this surprise you?
-4.  Now, provide separate plots for cost and debt by control of the
-    institution.
