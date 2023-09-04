@@ -2,7 +2,7 @@
 title: "01-intro-inclass"
 author: "Mark Chin"
 date: "8/16/2023"
-output: github_document
+output: html_document
 ---
  
 Complete the following steps:

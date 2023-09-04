@@ -20,6 +20,8 @@ contain the following elements:
 1.  A sentence that says “Hello, World”
 2.  R output that summarizes one of the variables in the `sc_debt.Rds`
     dataset
+3.  R output that shows a scatterplot for two of the variables in the
+    `sc_debt.Rds` dataset.
 
 Submit it under assignment 1, using the format
 `01-assignment_<lastname>.Rmd`. All assignments should be turned in
